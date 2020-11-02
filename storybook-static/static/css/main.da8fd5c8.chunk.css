@@ -1,0 +1,116 @@
+.newTaskContainer {
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 5vh;
+    padding-top: 3vh;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+
+
+}
+
+.newTaskContainer .newTaskHeading {
+
+    font-size: 4vh;
+    margin-bottom: 15vh;
+    color: black
+}
+
+
+.newTaskContainer input[type=text] {
+
+    padding: 3vh 2vh;
+    font-size: 1rem;
+    margin-bottom: 6vh;
+}
+
+.newTaskContainer .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vw;
+    margin: 0 auto
+}
+.list-item,
+.checkbox_Text {
+
+    display: flex;
+    align-items: center;
+    width: 90%;
+
+}
+
+.list-item {
+    width: 80%;
+    background-color: #fefefe;
+    margin: 1vh auto;
+    justify-content: space-between;
+    padding: 0 1vh;
+    border-style: solid;
+    border-color: rgb(66, 130, 248);
+    border-radius: 10px;
+}
+
+.checkbox_Text p {
+    text-overflow: ellipsis;
+    font-size: 100%;
+    overflow: hidden;
+    font-weight: bold;
+
+
+}
+
+.archived {
+    width: 90%;
+    color: rgb(124, 124, 128);
+    margin-Left: 1vh;
+    text-overflow: ellipsis;
+    font-size: 100%;
+    overflow: hidden;
+    font-weight: bold;
+
+}
+
+
+.starUnpinned {
+    color: rgba(134, 133, 133, 0.5)
+}
+
+.starUnpinned:hover {
+    color: rgb(0, 65, 77);
+}
+
+.starPinned {
+    color: rgb(0, 65, 77);
+}
+
+ 
+
+.emptyListWrapper{
+    margin: 5vh auto;
+    text-align: center;
+}
+
+
+.emptyListWrapper .tickIcon{
+    transform: scale(3.0);
+    color: green;
+    margin-bottom: 5vh;
+
+}
+
+.emptyListWrapper .emptyListText{
+    font-size: 5vh;
+}
+
+.loader{
+   
+    text-align: center;
+    margin-top: 5vh;
+}
+
+
+/*# sourceMappingURL=main.da8fd5c8.chunk.css.map*/
